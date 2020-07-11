@@ -31,7 +31,8 @@ namespace NetCore.Template.Api
             });
 
             services.AddAutoMapper(typeof(AutoMapperProfile));
-            services.AddDbContext<MyDbContext>(options => options.UseSqlServer(configurationAccessor.ConnectionString));
+            services.AddDbContext<MyDbContext>(options => options.UseInMemoryDatabase(databaseName: "TestDb"));
+
             services.AddSwagger(configurationAccessor);
             services.AddMvc(options => options.EnableEndpointRouting = false);
 

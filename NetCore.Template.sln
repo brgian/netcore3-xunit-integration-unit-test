@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Template.Repositori
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Template.Services", "NetCore.Template.Services\NetCore.Template.Services.csproj", "{DA0C3A54-9FAB-462C-B89B-F71FECD0B10C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.Template.Test", "NetCore.Template.Test\NetCore.Template.Test.csproj", "{2D213C3C-18A5-4382-B255-8EF4944E62BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{DA0C3A54-9FAB-462C-B89B-F71FECD0B10C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA0C3A54-9FAB-462C-B89B-F71FECD0B10C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA0C3A54-9FAB-462C-B89B-F71FECD0B10C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D213C3C-18A5-4382-B255-8EF4944E62BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D213C3C-18A5-4382-B255-8EF4944E62BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D213C3C-18A5-4382-B255-8EF4944E62BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D213C3C-18A5-4382-B255-8EF4944E62BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
