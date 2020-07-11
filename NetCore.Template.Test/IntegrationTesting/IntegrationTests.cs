@@ -32,7 +32,7 @@ namespace NetCore.Template.Test.IntegrationTesting
         [InlineData("Entity3")]
         [InlineData("Entity4")]
         [InlineData("Entity5")]
-        public async Task CreateReservation_Test(string value)
+        public async Task Create_Test(string value)
         {
             var newEntity = new MyEntityDto();
             newEntity.Value = value;
